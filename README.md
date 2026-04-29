@@ -1,3 +1,30 @@
-# recipe-to-reality
-Recipe-to-Reality is an AI-native extension transforming YouTube recipes into instant Instamart orders. Using Gemini to parse transcripts, it autonomously maps ingredients to SKUs via Swiggy MCP APIs. Our 'Content-to-Cart' engine eliminates friction, driving GMV by capturing high-intent culinary impulse buys in a single click
-🚀 Recipe-to-Reality: A Chrome Extension that uses Swiggy MCP and Gemini to turn YouTube videos into instant groceries.
+# 🛒 Recipe-to-Reality: Swiggy MCP AI Agent
+
+**Transforming YouTube recipes into instant Swiggy Instamart carts using AI.**
+
+---
+
+## 🚀 Overview
+**Recipe-to-Reality** is an AI-native extension designed for the **Swiggy Builders Club 2026**. It eliminates the friction between watching a cooking tutorial and actually buying the ingredients. 
+
+Using Gemini 1.5 Pro to parse video transcripts, it autonomously maps ingredients to available SKUs via the **Swiggy MCP (Model Context Protocol) APIs**, building a complete Instamart cart in a single click.
+
+## ✨ Key Features
+*   **Context-Aware Injection:** Automatically detects recipe videos and shorts on YouTube to show the "Cook This" button.
+*   **AI Ingredient Extraction:** Leverages Gemini to turn natural language video descriptions into structured shopping lists.
+*   **Autonomous Cart Building:** Uses the Swiggy Instamart MCP server to search and add items to a user's session.
+*   **One-Click Fulfillment:** Secure handoff to the Swiggy checkout page for final payment.
+
+## 🛠️ Tech Stack
+*   **Frontend:** Chrome Extension (Manifest V3)
+*   **Backend:** Python (FastAPI) 
+*   **AI Model:** Gemini 1.5 Pro (via AWS Bedrock)
+*   **Protocol:** Model Context Protocol (MCP)
+
+## 📂 Project Structure
+*   `manifest.json`: Extension configuration.
+*   `content.js`: Logic for YouTube button injection and URL capturing.
+*   `styles.css`: Signature Swiggy-themed UI styling.
+
+---
+*Created for the Swiggy Builders Club Application.*
