@@ -10,9 +10,21 @@
 Using Gemini 1.5 Pro to parse video transcripts, it autonomously maps ingredients to available SKUs via the **Swiggy MCP (Model Context Protocol) APIs**, building a complete Instamart cart in a single click.
 
 ### 📸 Demonstration (Working Prototype)
-Here is the 'Recipe-to-Reality' extension active on a YouTube Shorts video:
+## 🎬 End-to-End Prototype Demonstration (Content-to-Cart Flow)
 
-![Recipe-to-Reality working on YouTube Shorts](proof_youtube.png)
+We have built a fully functional end-to-end prototype for context-aware content parsing.
+
+### 📸 Step 1: Context-Aware Injection
+Here is the extension active on a YouTube Shorts video, having successfully injected the 'Cook This' button into the YouTube UI:
+
+![Recipe-to-Reality extension injecting button](proof_youtube.png)
+
+---
+
+### 📸 Step 2: Agent Parsing (Trigger & Confirm)
+Here is the immediate next step after clicking the button. The extension triggers the AI agent, which captures the specific video URL and displays a popup confirming it is initiating the ingredient extraction and MCP mapping phase.
+
+![Recipe-to-Reality agent triggering and capturing video context](proof_agent_parsing.png)
 
 ## ✨ Key Features
 *   **Context-Aware Injection:** Automatically detects recipe videos and shorts on YouTube to show the "Cook This" button.
